@@ -42,7 +42,7 @@ class AccountServiceTest {
         //when
         CreateAccRequestDTO myAccount = accountService.createNewAccount(accountCreate);
     // then
-        //verify(accountRepository).findByAccountNumber();
+        //verify(accountRepository).findByAccountNumber();//
         assertEquals(accountCreate,myAccount);
 
     }
